@@ -4,7 +4,8 @@ import sys
 from glob import glob
 import time
 import cv2
-from sklearn.externals import joblib
+#from sklearn.externals import joblib
+import joblib
 from skimage.feature import hog
 import numpy as np
 import streamlit as st
