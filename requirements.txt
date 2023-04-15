@@ -1,6 +1,6 @@
 streamlit
 opencv-contrib-python-headless
 sklearn
-skimage
+scikit-image
 numpy
 collections
