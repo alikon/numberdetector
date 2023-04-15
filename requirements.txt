@@ -1,0 +1,6 @@
+streamlit
+cv2
+sklearn
+skimage
+numpy
+collections
