@@ -3,4 +3,3 @@ opencv-contrib-python-headless
 sklearn
 scikit-image
 numpy
-collections
