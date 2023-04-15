@@ -7,7 +7,7 @@ import cv2
 #from sklearn.externals import joblib
 import joblib
 from skimage.feature import hog
-import svm
+import sklearn
 import numpy as np
 import streamlit as st
 from PIL import Image
