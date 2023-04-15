@@ -5,7 +5,7 @@ from glob import glob
 import time
 import cv2
 #from sklearn.externals import joblib
-#import joblib
+import joblib
 from skimage.feature import hog
 import sklearn
 import numpy as np
