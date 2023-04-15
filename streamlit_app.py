@@ -5,9 +5,9 @@ from glob import glob
 import time
 import cv2
 #from sklearn.externals import joblib
-from sklearn import joblib, svm
+from sklearn import joblib
 from skimage.feature import hog
-
+from sklearn import svm
 import numpy as np
 import streamlit as st
 from PIL import Image
