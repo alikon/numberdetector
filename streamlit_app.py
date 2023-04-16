@@ -1,5 +1,7 @@
 import pandas as pd
 import streamlit as st
+import numpy as np
+import matplotlib as mt
 
 
 st.title("Perceptron")
@@ -14,3 +16,4 @@ st.write(x_train.shape())
 st.write(x_train)
 st.write(y_train.shape())
 st.write(y_train)
+st.write(np.bincount(y_train))
