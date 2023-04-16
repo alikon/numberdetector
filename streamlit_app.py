@@ -24,7 +24,7 @@ plt.plot(
     marker ="D",
     markersize=13,
     linestyle="",
-    label="Class 0"
+    label="Class 0",
 )
 
 plt.plot(
@@ -33,12 +33,14 @@ plt.plot(
     marker ="^",
     markersize=13,
     linestyle="",
-    label="Class 1"
+    label="Class 1",
 )
 
 plt.legend(loc=2)
-plt.xlimit("Feature $x_1$", fontsize=12)
-plt.ylimit("Feature $x_2$", fontsize=12)
+plt.xlim(-5, 5)
+plt.ylim(-5, 5)
+plt.xlabel("Feature $x_1$", fontsize=12)
+plt.ylabel("Feature $x_2$", fontsize=12)
 
 plt.grid()
 plt.show()
