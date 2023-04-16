@@ -53,4 +53,4 @@ y = [4,7,55,43,2,4,11,22,33,44]
 # Create scatter plot:
 plt.scatter(x, y)
 
-plt.show()
+st.write(plt.show())
