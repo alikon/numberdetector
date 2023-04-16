@@ -9,7 +9,7 @@ df = pd.read_csv("dataset.csv")
 
 
 x_train = df[["x1", "x2"]].values
-y_train = df[["label"]]. values
+y_train = df[["label"]].values
 
 #
 st.write(x_train.shape)
@@ -21,7 +21,7 @@ st.write(y_train)
 plt.plot(
     x_train =[y_train == 0, 0],
     x_train =[y_train == 0, 1],
-    marker ="^",
+    marker ="D",
     markersize=13,
     linestyle="",
     label="Class 0"
