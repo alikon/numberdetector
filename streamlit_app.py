@@ -16,7 +16,7 @@ st.write(x_train.shape)
 st.write(x_train)
 st.write(y_train.shape)
 st.write(y_train)
-st.write(np.bincount(y_train))
+#st.write(np.bincount(y_train))
 
 plt.plot(
     x_train =[y_train == 0, 0],
