@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title("Perceptron")
 df = pd.read_csv("dataset.csv")
-df.show()
+df.info()
 
 x_train = df[["x1", "x2"]].values
 y_train = df[["label"]]. values
