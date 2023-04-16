@@ -6,8 +6,8 @@ st.title("Perceptron")
 df = pd.read_csv("dataset.csv")
 df.info()
 
-x_train = df[["x1", "x2"]].values
-y_train = df[["label"]]. values
-
-st.write(x_train)
-st.write(y_train)
+#x_train = df[["x1", "x2"]].values
+#y_train = df[["label"]]. values
+#
+#st.write(x_train)
+#st.write(y_train)
