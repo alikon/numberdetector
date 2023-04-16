@@ -19,8 +19,8 @@ st.write(y_train)
 #st.write(np.bincount(y_train))
 
 plt.plot(
-    x_train =[y_train == 0, 0],
-    x_train =[y_train == 0, 1],
+    x_train[y_train == 0, 0],
+    x_train[y_train == 0, 1],
     marker ="D",
     markersize=13,
     linestyle="",
@@ -28,8 +28,8 @@ plt.plot(
 )
 
 plt.plot(
-    x_train =[y_train == 1, 0],
-    x_train =[y_train == 1, 1],
+    x_train[y_train == 1, 0],
+    x_train[y_train == 1, 1],
     marker ="^",
     markersize=13,
     linestyle="",
