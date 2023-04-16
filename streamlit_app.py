@@ -3,7 +3,7 @@ import streamlit as st
 
 
 st.title("Perceptron")
-df = pd.read_csv("dataset.csv"header=0,
+df = pd.read_csv("dataset.csv", header=0,
         usecols=["x1", "x2", "label"])
 st.write(df.to_string())
 
