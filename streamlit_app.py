@@ -46,9 +46,9 @@ st.write(y_train)
 #plt.show()
 #
 ## X axis values:
-x = [2,3,7,29,8,5,13,11,22,33]
+x = [2,3,7,29,8,5,13,11,22,15]
 # Y axis values:
-y = [4,7,55,43,2,4,11,22,33,44]
+y = [4,7,55,43,2,4,11,22,33,5]
 
 fig = plt.figure()
 # Create scatter plot:
